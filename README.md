@@ -1,9 +1,37 @@
-### 🛡️ Laboratório de Análise de Logs: LetsDefend
+# 📊 Laboratório: Log Management - LetsDefend
 
-Desafios práticos realizados no módulo **SOC Fundamentals** da plataforma LetsDefebd para o desenvolvimento de habilidades em auditoria e filtros de SIEM. 
+Este repositório contém a documentação prática e a resolução das questões do laboratório de **Log Management** da plataforma **LetsDefend**.
 
-### 🛠️ Tecnologias e Conceitos Utilizados
+---
 
-* Gerenciamento de Logs (SIEM)
-* Filtragem de Tráfego de Rede
-* Análise de Eventos de Segurança
+## 🎯 Objetivo do Laboratório
+
+Aprender a realizar pesquisas práticas em sistemas de gestão de registos (*Log Management* / SIEM) para:
+- Filtrar e identificar endereços IP de origem (`SRC ADDRESS`).
+- Analisar tipos de eventos e protocolos (`TYPE`).
+- Localizar conexões através de portas de destino (`DEST PORT`) e URLs.
+
+---
+
+## 🛠️ Ferramentas & Conceitos Utilizados
+
+- **Ferramenta:** LetsDefend Log Management
+- **Campos de Registos Analisados:**
+  - `SRC ADDRESS`: Endereço IP da máquina de origem.
+  - `DEST PORT`: Porta de destino do tráfego.
+  - `TYPE`: Tipo/protocolo do registo (ex: `dns`, `proxy`).
+
+---
+
+## 📂 Conteúdo
+
+- — Documentação das perguntas, evidências em imagem (*prints*) e espaço para preenchimento das respostas.
+
+---
+
+## 🔍 Metodologia de Pesquisa Utilizada
+
+1. **Leitura da Pergunta:** Identificação do indicador (URL, IP ou Porta).
+2. **Filtragem no Painel:** Inserção do valor exato na barra de busca do *Log Management*.
+3. **Análise das Colunas:** Verificação das colunas correspondentes para extrair o dado solicitado.
+4. **Registo de Evidência:** Captura de ecrã do registo localizado.
